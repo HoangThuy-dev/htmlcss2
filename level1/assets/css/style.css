@@ -1,0 +1,170 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background: #f0f2f5;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.page-facebook{
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+    display: flex;
+}
+.column-left{
+    width: 50%;
+    float: left;
+
+}
+.column-right{
+    width: 32%;
+    float: left;
+    margin-left: 80px;
+}
+.page-facebook .column-left{
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+}
+.page-facebook .column-left .img-logo{
+    padding: 112px 0 16px;
+}
+.img-logo img{
+    height: 106px;
+    margin: -28px;
+}
+.page-facebook .column-left .text-left{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+.page-facebook .column-right .right-all{
+    height: 456px;
+    width: 396px;
+}
+.column-right .right-all .from-login{
+    padding-bottom: 24px;
+    padding-top: 10px;
+}
+.from-login{
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    text-align: center;
+}
+.from-login .input{
+    font-size: 17px;
+    width: 364px;display: inline-block;
+    margin: auto;
+    padding: 6px 0;
+}
+.right-all .input .input-text{
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+
+}
+.input .input-text:focus{
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1877f2;
+}
+.input .input-text:focus{
+    outline: none !important;
+}
+.button{
+    padding-top: 6px;
+    color: #fff;
+    font-weight: 600;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+.column-right .button-login{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    font-weight: 700;
+}
+.button-login:hover{
+    background-color: #166fe5;
+}
+.button-login, .button-creat{
+    color: #fff;
+}
+.column-right .button-creat{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background: #42b72a;
+}
+.button-creat{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.foget-password a{
+    color: #1877f2;
+    font-weight: 500;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.foget-password{
+    margin-top: 16px;
+}
+.column-right ._58mk {
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+}
+._58mk{
+    margin-top: 28px;
+    text-align: center;
+
+}
+._58mk ._8esh{
+    color: inherit;
+}
+._8esh{
+    font-size: 14px;
+    font-weight: 600;
+}
+.boder-bottum{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+.foget-password a:hover {
+    text-decoration: underline;
+}
+.button-creat:hover{
+    background-color: #36a420;
+}
