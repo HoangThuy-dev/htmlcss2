@@ -23,13 +23,13 @@ body {
 
 .card-before {
     background: #2175bb;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
 }
 .content-before {
     padding: 50px 100px;
 }
 .card-behind{
-    border: 3px solid #ebebeb;
+    border: 1px solid #ebebeb;
 }
 .content-behind{
     display: flex;
@@ -37,7 +37,7 @@ body {
 }
 .behind-right{
     text-align: left;
-    border-left: 2px solid #9e9d9d;
+    border-left: 1px solid #9e9d9d;
     padding-left: 20px;
     line-height: 2.0;
 }
@@ -72,5 +72,11 @@ body {
 }
 .list-item{
     display: flex;
+}
+.item-text-1{
+    line-height: 1.1;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 8px;
 }
 
