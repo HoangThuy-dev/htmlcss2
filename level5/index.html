@@ -8,6 +8,7 @@
     <link rel="shortcut icon" type="image/png" href="./assets/images/logo-icon.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="page-wapper">
@@ -201,14 +202,14 @@
                         <div class="input-group">
                             <input type="text" class="form-control mydatepicker" placeholder="mm/dd/yyyy">
                             <div class="input-group-append">
-                                <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                <span class="input-group-text" id="gio-hang1"><i class="fa fa-calendar"></i></span>
                             </div>
                         </div>
                         <label class="m-t-15">Autoclose Datepicker</label>
                         <div class="input-group">
                             <input type="text" class="form-control" id="datepicker-autoclose" placeholder="mm/dd/yyyy">
                             <div class="input-group-append">
-                                <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                <span class="input-group-text" id="gio-hang"><i class="fa fa-calendar"></i></span>
                             </div>
                         </div>
                     </div>
@@ -258,7 +259,7 @@
                                 <span>Tooltip Input</span>
                             </div>
                             <div class="col-lg-8 col-md-12">
-                                <input type="text" class="form-control" id="validationDefault05" placeholder="Hover For tooltip">
+                                <input type="text" data-toggle="tooltip" title="" class="form-control" id="validationDefault05" placeholder="Hover For tooltip">
                             </div>
                         </div>
                         <div class="row mb-3 align-items-center">
@@ -404,9 +405,43 @@
             </div>
         </div>
         <div class="row">
-
-        </div>
-    </div>
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Quill Editor</h4>
+                        <div class="ql-toolbar  ql-snow">
+                            <span class="ql-formats">
+                                <span class="ql-header">Normal</span>
+                                <img id="icon-1" src="assets/images/icon1.png">
+                            </span>
+                            <span class="ql-formats">
+                                <img id="icon-2" class="icon-pad" src="assets/images/icon2.png">
+                                <img id="icon-3" class="icon-pad" src="assets/images/icon3.png">
+                                <img id="icon-4" class="icon-pad" src="assets/images/icon4.png">
+                                <img id="icon-5" class="icon-pad" src="assets/images/icon5.png">
+                            </span>
+                            <span class="ql-formats" id="icon-6-7">
+                                <img id="icon-6" src="assets/images/icon6.png">
+                                <img id="icon-7" src="assets/images/icon7.png">
+                            </span>
+                            <span class="ql-formats">
+                                <img id="icon-8" src="assets/images/icon8.png">
+                            </span>
+                        </div>
+                        <div id="editor" style="height: 300px;" class="ql-container ql-snow">
+                            <div class="ql-editor" data-gramm="false" contenteditable="true">
+                                <p>Hello World!</p>
+                                <p>Some initial <strong>bold</strong> text</p>
+                                <p><br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    <footer class="footer text-center">
+        All Rights Reserved by Matrix-admin. Designed and Developed by <a href="#">WrapPixel</a>.
+    </footer>
 </div>
 </body>
 </html>

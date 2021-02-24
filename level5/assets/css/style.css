@@ -61,46 +61,45 @@
     border-color: #b54120;
     box-shadow: 0 0 0 0.2rem rgb(224 110 77 / 50%);
 }
-/*.minicolors-theme-bootstrap.minicolors-position-right .minicolors-input {*/
-/*    padding-right: 44px;*/
-/*    padding-left: 12px;*/
-/*}*/
-/*.minicolors-theme-bootstrap.minicolors-position-right > .minicolors-swatch {*/
-/*    left: auto;*/
-/*    right: 3px;*/
-/*}*/
-/*.minicolors-swatch-color {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    bottom: 0;*/
-/*}*/
-/*.minicolors-theme-bootstrap .minicolors-swatch-color {*/
-/*    border-radius: inherit;*/
-/*}*/
-/*.minicolors-swatch {*/
-/*    position: absolute;*/
-/*    vertical-align: middle;*/
-/*    background-position: -80px 0;*/
-/*    border: solid 1px #ccc;*/
-/*    cursor: text;*/
-/*    padding: 0;*/
-/*    margin: 0;*/
-/*    display: inline-block;*/
-/*}*/
-/*.minicolors-theme-bootstrap .minicolors-swatch {*/
-/*    z-index: 2;*/
-/*    top: 3px;*/
-/*    left: 3px;*/
-/*    width: 28px;*/
-/*    height: 28px;*/
-/*    border-radius: 3px;*/
-/*}*/
-/*.minicolors-theme-bootstrap .minicolors-input {*/
-/*    float: none;*/
-/*    padding-left: 44px;*/
-/*}*/
+.minicolors-theme-bootstrap.minicolors-position-right .minicolors-input {
+    padding-left: 12px;
+}
+.minicolors-theme-bootstrap.minicolors-position-right > .minicolors-swatch {
+    left: auto;
+    right: 3px;
+}
+.minicolors-swatch-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.minicolors-theme-bootstrap .minicolors-swatch-color {
+    border-radius: inherit;
+}
+.minicolors-swatch {
+    position: absolute;
+    vertical-align: middle;
+    background-position: -80px 0;
+    border: solid 1px #ccc;
+    cursor: text;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.minicolors-theme-bootstrap .minicolors-swatch {
+    z-index: 2;
+    top: 3px;
+    left: 3px;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+}
+.minicolors-theme-bootstrap .minicolors-input {
+    float: none;
+    padding-left: 44px;
+}
 .minicolors {
     position: relative;
 }
@@ -197,7 +196,7 @@ a{
 }
 .breadcrumb {
     float: left;
-    margin-left: 700px;
+    margin-left: 570px;
     font-size: 12px;
 }
 .breadcrumb li{
@@ -209,6 +208,7 @@ a{
 
 .page-wapper {
     background: #eeeeee;
+    margin-left: 250px;
 }
 
 .col-12 {
@@ -330,6 +330,8 @@ h5{
     border: 1px solid #e9ecef;
     border-radius: 2px;
     font-size: 14px;
+    color: #4F5467;
+    font-family: "Nunito Sans", sans-serif;
 }
 .container-fluid {
     padding: 20px;
@@ -527,4 +529,96 @@ label {
 }
 button{
     cursor: pointer;
+}
+.footer {
+    padding: 15px 20px;
+}
+.text-center {
+    text-align: center!important;
+}
+.ql-toolbar.ql-snow {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    padding: 8px;
+}
+.ql-editor {
+    line-height: 1.42;
+    height: 92%;
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.ql-editor:focus {
+    border: 1px solid #ccc;
+    outline: 0;
+    border-top: none;
+}
+#hue-demo, #position-bottom-left{
+    width: 91%;
+}
+#gio-hang, #gio-hang1 {
+    border-left: none;
+    height: 19px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#icon-1 {
+    margin-left: 30px;
+    position: absolute;
+    margin-top: -9px;
+    top: 50%;
+}
+.ql-formats {
+    position: relative;
+}
+.ql-toolbar.ql-snow .ql-formats {
+    margin-right: 15px;
+    padding-left: 8px;
+    padding-right: 2px;
+}
+#icon-2 {
+    margin-left: 46px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+}
+.icon-pad{
+    padding: 3px 5px;
+}
+#icon-5 {
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    left: 147px;
+}
+#icon-4 {
+    position: absolute;
+    top: 50%;
+    margin-top: -13px;
+    left: 115px;
+}
+#icon-3 {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    left: 86px;
+}
+#icon-6-7{
+    position: absolute;
+    top: 50%;
+    margin-top: -146px;
+    left: 285px;
+}
+#icon-8{
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    left: 238px;
+}
+.ql-container{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+
 }
