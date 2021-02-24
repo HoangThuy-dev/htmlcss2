@@ -570,6 +570,7 @@ button{
 }
 .ql-formats {
     position: relative;
+    cursor: pointer;
 }
 .ql-toolbar.ql-snow .ql-formats {
     margin-right: 15px;
@@ -618,5 +619,11 @@ button{
 .ql-container{
     font-family: Helvetica, Arial, sans-serif;
     font-size: 13px;
-
 }
+.ql-picker-label:before{
+    content: 'Normal';
+}
+.ql-picker-label:hover{
+    color: #06c;
+}
+
