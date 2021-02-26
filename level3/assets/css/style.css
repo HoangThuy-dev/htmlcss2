@@ -1,13 +1,27 @@
 /*.wrapper{*/
 /*    width: 1024px;*/
 /*}*/
+
+body {
+    /*font-family: "Nunito Sans", sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ========== HEADER ========== */
+/* ========== END HEADER ========== */
+
+/* ========== CONTENT LEFT - VIDEO ========== */
+/* ========== END CONTENT LEFT - VIDEO ========== */
+
+/* ========== CONTENT RIGHT - LIST VIDEO ========== */
+/* ========== END CONTENT RIGHT - LIST VIDEO ========== */
+
 .container{
     height: 56px;
     padding: 0 16px;
 }
 .about-header{
     width: 100%;
-    float: left;
 }
 .about-left{
     width: 30%;
@@ -70,7 +84,40 @@ form.search-form {
     margin-top: 7px;
 }
 .about-content {
+    background: #f9f9f9;
+}
+.about-video{
+    width: 680px;
+}
+
+.about-content .about-content-main {
     padding: 30px 94px;
     display: flex;
-    background: #f9f9f9;
+    width: 1024px;
+    margin: 0 auto;
+}
+.about-list-items{
+    width: 430px;
+    margin-top: 0;
+}
+.content-video a {
+    color: #065fd4;
+}
+.content-video h1{
+    margin: 5px 0;
+    font-size: 24px;
+}
+.content-video {
+    padding: 20px 0 8px 0;
+    border-bottom: 1px solid rgb(0 0 0 / 10%);
+}
+.about-item{
+    display: flex;
+}
+.item-detail {
+    padding: 0px 10px;
+    width: 275px;
+}
+.title-item {
+    font-size: 17px;
 }
