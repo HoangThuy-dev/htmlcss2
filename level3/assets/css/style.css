@@ -26,6 +26,7 @@ body {
 .about-left{
     width: 30%;
     float: left;
+    display: flex;
 }
 .about-center{
     width: 40%;
@@ -120,4 +121,8 @@ form.search-form {
 }
 .title-item {
     font-size: 17px;
+}
+i.fa.fa-bars {
+    margin-top: 12px;
+    margin-right: 17px;
 }
